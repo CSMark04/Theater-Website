@@ -1,0 +1,310 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+video {
+ 
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  
+  }
+  .video-wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    border: 2px solid #000;
+    height: 720px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+  }
+
+  /* nav start */
+.nav-container{
+    margin: 0 auto;
+    background-color: black;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    height: 60px;
+}
+.nav-container p{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 16px 28px;
+
+}
+
+.links{
+    display: flex;
+    align-items: right;
+    gap: 31px;
+}
+
+.link{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 21px 20px 0;
+
+}
+
+/* video */
+
+.page{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.title{
+    max-width: 1440px;
+    margin: 308px 282px;
+    background: transparent;
+    position: absolute;
+    width: 875px;
+    height: 104px;
+    color: purple;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 112px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+
+/* hero */
+
+.hero{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.dropbtn {
+    width: 1259px;
+    height: 72px;
+    left: 90px;
+    top: 862px;
+    background: #D9D9D9;
+    border: 2px solid #A6A6A6;
+    border: none;
+    margin: 82px 91px 0 91px;
+    font-size: 24px;
+    color: #353535;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    margin: 0px 91px;
+    width: 1259px;
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+  }
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  .dropdown:hover .dropbtn {
+    background-color: rgb(100, 98, 98);
+}
+
+.tickets{
+    max-width: 1114px;
+    margin-left: 116px;
+    display: flex;
+    justify-content: right;
+    border-bottom: 2px solid#353535;
+}
+
+
+.tickets .img1{
+    margin: 82px 53px 27px 0px;
+    width: 264px;
+    height: 261px;
+}
+
+.content1{
+    margin-right: 141px;
+    padding: 85px 141px 54px 0px;
+}
+
+.tickets .img{
+    margin: 27px 53px 27px 0px;
+    width: 264px;
+    height: 261px;
+}
+
+.content{
+    margin-top: 50px;
+    margin-right: 141px;
+    padding: 0px 141px 54px 0px;
+}
+
+.content1 h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.content1 p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.content h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.content p{
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.btn{
+    width: 100%;
+    max-width: 211px;
+    height: 65px;
+    background: #F0BB00;
+    border: 1px solid #A07D00;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 179px;
+    margin-left: 161px;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: #c59d0d;
+    cursor: pointer;
+}
+
+.tickets h2{
+    margin: 0;
+}
+
+/* footer */
+
+footer{
+    margin-top: 80px;
+    margin-bottom: 220px;
+    width: 1440px;
+    height: 478px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.footer-column a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+.footer-column a:hover{
+    color: blue;
+}
+
+.footer-content {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    padding: 47px 0;
+    
+    margin-bottom: 40px;
+}
+
+.footer-column1 p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+
+.footer-column1 h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+}
+
+.footer-column{
+    text-align: center;
+}
+ 
+
+.footer-column1{
+    text-align: center;
+    margin-left: 60px;
+}
+
+.footer-column h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+}
+
+.mark{
+    font-family: 'Schoolbell', cursive;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    padding-top: 410px;
+    padding-right: 15px;
+}
+/* my butt is numb */
